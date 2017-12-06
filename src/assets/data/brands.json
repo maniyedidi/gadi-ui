@@ -1,0 +1,185 @@
+{
+  "makes": [{
+      "makeId": 7,
+      "makeName": "Honda",
+      "maskingName": "honda",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/honda_7.jpg?ismaster=1"
+    },
+    {
+      "makeId": 1,
+      "makeName": "Bajaj",
+      "maskingName": "bajaj",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/bajaj_1.jpg?ismaster=1"
+    },
+    {
+      "makeId": 6,
+      "makeName": "Hero",
+      "maskingName": "hero",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/hero_6.jpg?ismaster=1"
+    },
+    {
+      "makeId": 15,
+      "makeName": "TVS",
+      "maskingName": "tvs",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/tvs_15.jpg"
+    },
+    {
+      "makeId": 11,
+      "makeName": "Royal Enfield",
+      "maskingName": "royalenfield",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/royalenfield_11.jpg?ismaster=1"
+    },
+    {
+      "makeId": 13,
+      "makeName": "Yamaha",
+      "maskingName": "yamaha",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/yamaha_13.jpg?ismaster=1"
+    },
+    {
+      "makeId": 12,
+      "makeName": "Suzuki",
+      "maskingName": "suzuki",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/suzuki_12.jpg?ismaster=1"
+    },
+    {
+      "makeId": 9,
+      "makeName": "KTM",
+      "maskingName": "ktm",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/ktm_9.jpg?v=03032016&ismaster=1"
+    },
+    {
+      "makeId": 10,
+      "makeName": "Mahindra",
+      "maskingName": "mahindra",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/mahindra_10.jpg?ismaster=1"
+    },
+    {
+      "makeId": 5,
+      "makeName": "Harley Davidson",
+      "maskingName": "harleydavidson",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/harleydavidson_5.jpg?ismaster=1"
+    },
+    {
+      "makeId": 2,
+      "makeName": "Aprilia",
+      "maskingName": "aprilia",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/aprilia_2.jpg?ismaster=1"
+    },
+    {
+      "makeId": 40,
+      "makeName": "Benelli",
+      "maskingName": "benelli",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/benelli_40.jpg?ismaster=1"
+    },
+    {
+      "makeId": 3,
+      "makeName": "BMW",
+      "maskingName": "bmw",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/bmw_3.jpg?ismaster=1"
+    },
+    {
+      "makeId": 4,
+      "makeName": "Ducati",
+      "maskingName": "ducati",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/ducati_4.jpg?ismaster=1"
+    },
+    {
+      "makeId": 39,
+      "makeName": "Hero Electric",
+      "maskingName": "heroelectric",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/heroelectric_39.jpg?ismaster=1"
+    },
+    {
+      "makeId": 8,
+      "makeName": "Hyosung",
+      "maskingName": "hyosung",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/hyosung_8.jpg?ismaster=1"
+    },
+    {
+      "makeId": 34,
+      "makeName": "Indian",
+      "maskingName": "indian",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/indian_34.jpg?ismaster=1"
+    },
+    {
+      "makeId": 17,
+      "makeName": "Kawasaki",
+      "maskingName": "kawasaki",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/kawasaki_17.jpg?ismaster=1"
+    },
+    {
+      "makeId": 19,
+      "makeName": "LML",
+      "maskingName": "lml",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/lml_19.jpg?ismaster=1"
+    },
+    {
+      "makeId": 20,
+      "makeName": "Moto Guzzi",
+      "maskingName": "motoguzzi",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/motoguzzi_20.jpg?ismaster=1"
+    },
+    {
+      "makeId": 41,
+      "makeName": "MV Agusta",
+      "maskingName": "mvagusta",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/mv-agusta_41.jpg?ismaster=1"
+    },
+    {
+      "makeId": 71,
+      "makeName": "Tork",
+      "maskingName": "tork",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/tork_71.jpg?ismaster=1"
+    },
+    {
+      "makeId": 22,
+      "makeName": "Triumph",
+      "maskingName": "triumph",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/triumph_22.jpg?ismaster=1"
+    },
+    {
+      "makeId": 42,
+      "makeName": "UM",
+      "maskingName": "um",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/um_42.jpg?ismaster=1"
+    },
+    {
+      "makeId": 16,
+      "makeName": "Vespa",
+      "maskingName": "vespa",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/vespa_16.jpg?ismaster=1"
+    },
+    {
+      "makeId": 14,
+      "makeName": "Yo",
+      "maskingName": "yo",
+      "hostUrl": "https://imgd.aeplcdn.com/",
+      "logoUrl": "/bw/brands/yo_14.jpg?ismaster=1"
+    }
+  ]
+}

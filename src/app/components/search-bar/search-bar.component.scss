@@ -1,0 +1,32 @@
+.search-result-container {
+    height: 40px;
+    background-color: #337ab7;
+    .btn-primary {
+      color: #fff;
+      background-color: #1e507a;
+    }
+    input,
+    button {
+      margin-top: 10px;
+    }
+    .fa {
+      font-size: 30px;
+      color: white;
+      margin-top: 12px;
+    }
+    .fa-ellipsis-v {
+      padding-left: 10px;
+      font-size: 18px;
+    }
+    @media only screen and (max-width: 500px) {
+      .fa {
+        font-size: 20px;
+        color: white;
+        margin-top: 12px;
+      }
+    }
+    .fa-bars {
+      padding-left: 25px;
+    }
+  }
+  

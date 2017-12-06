@@ -1,0 +1,23 @@
+<div class="search-result-container">
+  <div class="container-fluid">
+    <div class="col-md-4 col-sm-6 col-xs-12" *ngFor="let gadi of searchResults | async">
+      <md-card class="bike-card">
+        <md-card-header>
+          <div md-card-avatar class="example-header-image"></div>
+          <md-card-title><span>{{ gadi.makeName}}</span> <span> {{ gadi.brand}}</span></md-card-title>
+        </md-card-header>
+        <md-card-content>
+          <iframe width="100%" height="215" [src]="gadi.srcUrls[0].url | safe " frameborder="0" allowfullscreen></iframe>
+        </md-card-content>
+        <md-card-actions class="row">
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <i class="fa fa-thumbs-up" aria-hidden="true"></i><span class="counts">10</span>
+          </div>
+          <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+            <i class="fa fa-eye" aria-hidden="true"></i> <span  class="counts">20</span>
+          </div>
+        </md-card-actions>
+      </md-card>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,83 @@
+{
+  "modelList": [{
+      "modelId": 643,
+      "modelName": "Avenger 150 Street",
+      "maskingName": "avenger"
+    },
+    {
+      "modelId": 645,
+      "modelName": "Avenger 220 Cruise",
+      "maskingName": "avenger-220-cruise"
+    },
+    {
+      "modelId": 644,
+      "modelName": "Avenger 220 Street",
+      "maskingName": "avenger-220-street"
+    },
+    {
+      "modelId": 621,
+      "modelName": "CT100",
+      "maskingName": "ct100"
+    },
+    {
+      "modelId": 629,
+      "modelName": "Discover 125",
+      "maskingName": "discover"
+    },
+    {
+      "modelId": 551,
+      "modelName": "Dominar 400",
+      "maskingName": "dominar400"
+    },
+    {
+      "modelId": 6,
+      "modelName": "Platina",
+      "maskingName": "platina"
+    },
+    {
+      "modelId": 186,
+      "modelName": "Pulsar 135 LS",
+      "maskingName": "pulsar135ls"
+    },
+    {
+      "modelId": 197,
+      "modelName": "Pulsar 150",
+      "maskingName": "pulsar-150"
+    },
+    {
+      "modelId": 198,
+      "modelName": "Pulsar 180",
+      "maskingName": "pulsar-180"
+    },
+    {
+      "modelId": 199,
+      "modelName": "Pulsar 220F",
+      "maskingName": "pulsar-220"
+    },
+    {
+      "modelId": 1062,
+      "modelName": "Pulsar NS160",
+      "maskingName": "pulsar-ns160"
+    },
+    {
+      "modelId": 196,
+      "modelName": "Pulsar NS200",
+      "maskingName": "pulsar-ns"
+    },
+    {
+      "modelId": 411,
+      "modelName": "Pulsar RS200",
+      "maskingName": "pulsar-rs"
+    },
+    {
+      "modelId": 1020,
+      "modelName": "V12",
+      "maskingName": "v12"
+    },
+    {
+      "modelId": 687,
+      "modelName": "V15",
+      "maskingName": "v"
+    }
+  ]
+}

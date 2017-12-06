@@ -1,0 +1,62 @@
+<div class="search-result-container">
+  <div class="container-fluid">
+    <form class="example-form">
+      <div class="col-xs-2 col-sm-2 col-md-1 col-lg-1">
+        <i class="fa fa-motorcycle" aria-hidden="true"></i>
+        <i class="fa fa-bars hidden-xs hidden-md" aria-hidden="true" md-icon-button [mdMenuTriggerFor]="menu"></i>
+        <md-menu #menu="mdMenu">
+          <button md-menu-item routerLink="">
+              <md-icon><i class="fa fa-home" aria-hidden="true"></i></md-icon>
+              <span>Home</span>
+            </button>
+          <button md-menu-item routerLink="/upload">
+              <md-icon><i class="fa fa-upload" aria-hidden="true"></i></md-icon>
+              <span>Upload</span>
+            </button>
+        </md-menu>
+      </div>
+      <div class="col-xs-3 visible-xs col-xs-offset-7">
+        <i class="fa fa-search" aria-hidden="true"></i>
+        <i class="fa fa-ellipsis-v" aria-hidden="true" md-icon-button [mdMenuTriggerFor]="menu"></i>
+        <md-menu #menu="mdMenu">
+          <button md-menu-item routerLink=""> 
+                <md-icon><i class="fa fa-home" aria-hidden="true"></i></md-icon>
+                <span>Home</span>
+              </button>
+          <button md-menu-item routerLink="/upload">
+                <md-icon><i class="fa fa-upload" aria-hidden="true"></i></md-icon>
+                <span>Upload</span>
+              </button>
+        </md-menu>
+      </div>
+      <div>
+        <div class="col-xs-12 col-sm-4 col-md-4 col-lg-4">
+          <md-form-field class="example-full-width">
+            <input type="text" mdInput placeholder="Brand" [(ngModel)]="searchQuery.makeName" aria-label="Brand" [mdAutocomplete]="auto"
+              [formControl]="stateCtrl" class="form-control">
+            <md-autocomplete #auto="mdAutocomplete">
+              <md-option *ngFor="let brand of filteredStates | async" [value]="brand">
+                <span (click)="displayModels(brand) " [title]="brand">{{brand }}</span>
+              </md-option>
+            </md-autocomplete>
+          </md-form-field>
+        </div>
+        <div class="col-xs-12  col-sm-4 col-md-4 col-lg-4">
+          <md-form-field class="example-full-width">
+            <input type="text" mdInput placeholder="Model" aria-label="Model" [(ngModel)]="searchQuery.brandName" [mdAutocomplete]="modelauto"
+              [formControl]="modelCtrl" class="form-control">
+            <md-autocomplete #modelauto="mdAutocomplete">
+              <md-option *ngFor="let model of filteredModels | async" [value]="model">
+                <span [title]="searchQuery.model" (click)="displayModels(model) ">{{ model }}</span>
+              </md-option>
+            </md-autocomplete>
+          </md-form-field>
+        </div>
+
+        <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+          <button type="button" class="btn btn-large btn-block btn-primary" (click)="searchResults()">search</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>
